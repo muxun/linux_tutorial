@@ -1,4 +1,5 @@
 # linux_tutorial
+<p><a name="top"></p>
 Руководство linux
 по материалам курсов <a href = https://stepik.org/course/762 target="blank"> Основы Linux от Stepik.org </a> , <a href = https://otus.ru/lessons/linux target="blank"> Администратор Linux от Otus.ru <a> , обучающих плейлистов по <a href = https://www.lpi.org/our-certifications/summary-of-certifications target="blank">LPIC</a> от <a href=https://www.youtube.com/user/itsemaev  target="blank">Кирилла Семаева</a> и <a target="blank" href = https://www.youtube.com/channel/UC-sAMvDe7gTmBbub-rWljZg/featured> Дениса Астахова </a>
   
@@ -15,3 +16,4 @@ RedHat является тесно связанной с Linux коммерче�
 
 <h4>Другие дистрибутивы</h4>
 Такие дистрибутивы, как CentOS, Oracle Enterprise Linux и Scientific Linux базируются на дистрибутиве Red Hat Enterprise Linux и используют множество аналогичных принципов, директорий и техник администрирования системы. Дистрибутивы Linux Mint, Edubuntu и многие другие дистрибутивы с именами *buntu базируются на дистрибутиве Ubuntu и, таким образом, очень похожи на дистрибутив Debian. Существуют также сотни других дистрибутивов Linux.
+<a href=#top>начало</a>
