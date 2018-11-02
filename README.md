@@ -4,17 +4,17 @@
   
 Руководство linux
 по материалам курсов <a href = https://stepik.org/course/762 target="blank"> Основы Linux от Stepik.org </a> , <a href = https://otus.ru/lessons/linux target="blank"> Администратор Linux от Otus.ru <a> , обучающих плейлистов по <a href = https://www.lpi.org/our-certifications/summary-of-certifications target="blank">LPIC</a> от <a href=https://www.youtube.com/user/itsemaev  target="blank">Кирилла Семаева</a> и <a target="blank" href = https://www.youtube.com/channel/UC-sAMvDe7gTmBbub-rWljZg/featured> Дениса Астахова </a>
-  <h2>Оглавление</h2>
-  <a href=#0>0.Выбор и установка дистрибутива</a>
-  <a href=#>1.</a>
-  <a href=#>2.</a>
-  <a href=#>3.</a>
-  <a href=#>4.</a>
-  <a href=#>5.</a>
-  <a href=#>6.</a>
-  <a href=#>7.</a>
-  <a href=#>8.</a>
-  <a href=#>9.</a>
+  <h2>Оглавление</h2><br>
+  <a href=#0>0.Выбор и установка дистрибутива</a><br>
+  <a href=#>1.</a><br>
+  <a href=#>2.</a><br>
+  <a href=#>3.</a><br>
+  <a href=#>4.</a><br>
+  <a href=#>5.</a><br>
+  <a href=#>6.</a><br>
+  <a href=#>7.</a><br>
+  <a href=#>8.</a><br>
+  <a href=#>9.</a><br>
   
 <h3><a name = "0">0 Выбор и установка дистрибутива</h3>
   Дистрибутив Linux является коллекцией программного обеспечения, работающего под управлением ядра Linux.
