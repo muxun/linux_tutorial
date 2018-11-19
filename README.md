@@ -69,23 +69,29 @@ mv -i - запрос на подтверждение операции <br>
 <h5>rename<h5>
 единовременное переименования множества файлов с использованием регулярных выражений 
 <h4>(debian\ubuntu)</h4>
+
 ```
 rename 's/\.txt/\.png/' *.txt 
 ```
+
 <br>
 шаблон rename 's/in/out' files <br>
 пример выше переименует все файлы с расширением txt на png для всех находящихся в текущем каталоге txt файлов <br>
+
 ```
 rename 's/file/document/' *.png
 ```
+
 <br>
 в этом примере переименуется все вхождения символов file на document для всех файлов с расширением *.png <br>
 
 <h4>(CentOS/RHEL/Fedora)</h4>
 шаблон rename in out files<br>
+
 ```
 rename .conf .backup *.conf 
 ```
+
 <br>
 будут переименованный все вхождения символов .conf на .backup для расширения .conf<br>
 rename one ONE *<br>
