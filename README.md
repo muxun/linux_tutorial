@@ -60,7 +60,6 @@ cp -r -копирование директории с поддиректория
 cp -r mydir/ mydircopy
 ```
 
-<br>
 cp -i - предотвращает перезапись существующихх файлов<br>
 
 <h5>mv</h5>
@@ -75,7 +74,6 @@ mv -i - запрос на подтверждение операции <br>
 rename 's/\.txt/\.png/' *.txt 
 ```
 
-<br>
 шаблон rename 's/in/out' files <br>
 пример выше переименует все файлы с расширением txt на png для всех находящихся в текущем каталоге txt файлов <br>
 
@@ -83,7 +81,6 @@ rename 's/\.txt/\.png/' *.txt
 rename 's/file/document/' *.png
 ```
 
-<br>
 в этом примере переименуется все вхождения символов file на document для всех файлов с расширением *.png <br>
 
 <h4>(CentOS/RHEL/Fedora)</h4>
@@ -93,7 +90,6 @@ rename 's/file/document/' *.png
 rename .conf .backup *.conf 
 ```
 
-<br>
 будут переименованный все вхождения символов .conf на .backup для расширения .conf<br>
 rename one ONE *<br>
 все вайлы с вхождением one будут переименованны в ONE<br> 
