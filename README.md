@@ -170,3 +170,9 @@ cut -d" " /etc/passwd
 <h3><a name = "7">7-</h3>
 <h3><a name = "8">8-</h3>
 <h3><a name = "9">9 Настройка linux на сервере</h3>
+<h4>задать root пароль</h4>
+
+```
+sudo -i
+passwd root
+```
