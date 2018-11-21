@@ -188,9 +188,9 @@ ssh-keygen -t rsa
 `ssh-copy-id user@server` - копирование публичного ключа на сервер
 
 установка прав на ключи и катлог
-`chmod 700 ~/.ssh` - каталог
-`chmod 600 ~/.ssh/id_rsa` - закрытый ключ
-`chmod 644 ~/.ssh/id_rsa.pub` - открытый ключ
+`chmod 700 ~/.ssh` - каталог <br>
+`chmod 600 ~/.ssh/id_rsa` - закрытый ключ <br>
+`chmod 644 ~/.ssh/id_rsa.pub` - открытый ключ <br>
 
 <h4>работа с ssh-agent</h4>
  cоздаём ключи
