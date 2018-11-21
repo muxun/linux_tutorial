@@ -202,3 +202,38 @@ passwd username
 vi /etc/hostname
 >server.domain.org
 ```
+
+<h4>обновление системы</h4>
+ubuntu
+ 
+ ```
+ apt-get update && apt-get upgrade 
+ ```
+ 
+ centos
+ 
+ ```
+ yum update
+ ```
+ 
+ <h4>настройка времени</h4>
+ 
+ ```
+ \cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime
+ ```
+ 
+  <h4>настройка ssh</h4>
+  
+  ```
+  vi /etc/ssh/sshd_config
+  # Запрет подключение от root, при этом должна быть учетка с доступом по ssh
+  > PermitRootLogin no
+  # Явное указание групп и пользователей для плдключения
+  >AllowGroups wheel sudo developer testers
+  >AllowUsers username dev tester
+  # Изменение порта и адреса прослушивания
+  > Port 2222
+  > ListenAdress 192.168.0.1
+  ```
+ 
+ 
