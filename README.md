@@ -231,12 +231,19 @@ PCRE: Perl Regular Expressions (Синтаксис регулярных выра
 языка программирования Perl (PCRE).<br>
 
 <h4>grep regesx</h4>
-`grep -G'i\|a' file` - поиск вхождения i или a в file. Логическое ИЛИ экранируется \ <br>
+
+`grep -G'i\|a' file ` - поиск вхождения i или a в file. Логическое ИЛИ экранируется \ <br>
+
 `grep -E 's*' file` - вхождение нулевого,одного или большего кол-ва символа s <br>
+
 `grep -E 's+' file` - вхождение одного или большего коло-ва символа s <br>
+
 `grep a$ file` - совпадениев конце строки символа a <br>
+
 `grep ^a file` - совпадение в начале строки символа a <br>
+
 `grep '\bWATTOFIND\b' file` - поиск только вхождения WHATTOFIND <br>
+
 `grep -w WHATTOFIND file` - поиск только слова WHATTOFIND <br>
 
 
