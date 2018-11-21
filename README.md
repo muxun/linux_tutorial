@@ -161,6 +161,28 @@ cut -d" " /etc/passwd
   cut -c2-7 /etc/passwd
  ```
 
+<h4>шаблоны поиска в shell</h4>
+<h5>*</h5>
+
+```
+ls file*
+> file1 file2 file3 file123
+```
+ 
+<h5>?</h5>
+
+```
+ls file?
+>file1 file2 file3
+```
+ 
+ <h5>[]</h5>
+ 
+ ```
+ ls file[1]*
+ >file1 file123
+ ```
+ 
  
  
 <h3><a name = "3">3-</h3>
