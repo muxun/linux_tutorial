@@ -183,6 +183,15 @@ ls file?
  >file1 file123
  ```
  
+ <h5>[a-z] - [A-Z] - [0-9]</h5>
+ 
+ ```
+ ls file[0-9][0-9][0-9]
+ >file123
+ 
+ ls fil[e][!2]*
+ >file1 file3 file123
+ ```
  
  
 <h3><a name = "3">3-</h3>
