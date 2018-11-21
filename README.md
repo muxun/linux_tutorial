@@ -195,3 +195,10 @@ useradd username -G wheel -m
 ```
 passwd username
 ```
+
+<h4>задаем имя серверу</h4>
+
+```
+vi /etc/hostname
+>server.domain.org
+```
