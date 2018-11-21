@@ -170,9 +170,28 @@ cut -d" " /etc/passwd
 <h3><a name = "7">7-</h3>
 <h3><a name = "8">8-</h3>
 <h3><a name = "9">9 Настройка linux на сервере</h3>
-<h4>задать root пароль</h4>
+<h4>задать root пользователю пароль</h4>
 
 ```
 sudo -i
 passwd root
+```
+
+<h4>создать юзера с правами sudo</h4>
+
+для ubuntu
+
+```
+useradd username -G sudo -m
+```
+для centos
+
+```
+useradd username -G wheel -m
+```
+
+задать юзеру пароль
+
+```
+passwd username
 ```
