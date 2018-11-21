@@ -259,6 +259,7 @@ ssh-keygen -t rsa
 
 <h4>работа с ssh-agent</h4>
  cоздаём ключи
+ 
  ```
     $ ssh-keygen
     # Но на этот раз вводим passphrase (ключевую фразу) - 
