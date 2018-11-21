@@ -352,7 +352,7 @@ vi /etc/hostname
 
 <h4>обновление системы</h4>
 ubuntu
- 
+ x
  ```
  apt-get update && apt-get upgrade 
  ```
